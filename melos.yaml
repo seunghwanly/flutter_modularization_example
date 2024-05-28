@@ -1,0 +1,13 @@
+name: app
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - packages/**
+  - .
+
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+

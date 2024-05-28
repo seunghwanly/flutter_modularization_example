@@ -1,0 +1,16 @@
+# melos_managed_dependency_overrides: l1_foundation,l2_core,l3_feature,counter,counter_screen,ui,util
+dependency_overrides:
+  counter:
+    path: ../l3_feature/counter
+  counter_screen:
+    path: counter_screen
+  l1_foundation:
+    path: ../l1_foundation
+  l2_core:
+    path: ../l2_core
+  l3_feature:
+    path: ../l3_feature
+  ui:
+    path: ../l2_core/ui
+  util:
+    path: ../l1_foundation/util

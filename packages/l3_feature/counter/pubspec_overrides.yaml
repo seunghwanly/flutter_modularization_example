@@ -1,0 +1,10 @@
+# melos_managed_dependency_overrides: l1_foundation,l2_core,ui,util
+dependency_overrides:
+  l1_foundation:
+    path: ../../l1_foundation
+  l2_core:
+    path: ../../l2_core
+  ui:
+    path: ../../l2_core/ui
+  util:
+    path: ../../l1_foundation/util
